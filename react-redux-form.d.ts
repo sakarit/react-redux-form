@@ -647,6 +647,8 @@ export function formReducer(model: string, initialState?: any): Reducer<FormStat
  */
 export function getField(formState: FormState, model: string): FieldState;
 
+export function resolveModel(WrappedComponent: React.ComponentClass<any>): React.ComponentClass<any>
+
 interface PropMapping {
     [key: string]: Function;
 }

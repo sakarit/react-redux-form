@@ -22,6 +22,7 @@ import modelReducer from './reducers/model-reducer';
 import track from './utils/track';
 import getFieldFromState from './utils/get-field-from-state';
 import get from './utils/get';
+import resolveModel from './utils/resolve-model';
 
 import form from './form';
 
@@ -59,5 +60,6 @@ export {
   // Utilities
   getFieldFromState as getField,
   get as getModel,
+  resolveModel,
   track,
 };
